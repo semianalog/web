@@ -1,0 +1,22 @@
+m4_define(HTI_SUBTITLE, Software)
+m4_include(header.hti)
+
+_h(2, bomtool _wip)
+
+<p>GitHub: <a href="https://github.com/cpavlina/bomtool">cpavlina/bomtool</a></p>
+
+<p>bomtool is a KiCad/DigiKey BOM (Bill Of Materials) manager. It lets you specify
+parts in a KiCad schematic like this:</p>
+
+<pre>
+RES SMD 20k 1% [0402]
+CAP MLCC 33nF 5% 25V ≥X5R [0603]
+BEAD SMD 100 @100MHz 2A [1206]
+</pre>
+
+<p>bomtool will then open a browser and drive DigiKey's parametric search to
+find the parts for you. It does more &mdash; check out
+<a href="http://cgi.c4757p.com/ghview.py?bomtool/master/DOCUMENTATION.html">the
+documentation</a>!</p>
+
+m4_include(footer.hti)

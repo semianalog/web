@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Slabo|Inconsolata);
+
+/*****************************************************************************
+ * MAIN PAGE LAYOUT                                                          *
+ *****************************************************************************/
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Slabo, 'Linux Libertine', serif;
+    font-size: 12pt;
+    background-color: #ababab;
+}
+
+#body_wrap {
+    background-color: #efefef;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+#content {
+    padding: 6mm;
+}
+
+#lastmod {
+    border-top: 1px solid #333;
+    padding: 3mm 6mm 6mm 6mm;
+    margin-top: 37mm;
+}
+
+
+/*****************************************************************************
+ * TEXT STYLING                                                              *
+ *****************************************************************************/
+
+/**************************************
+ * Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, 'Linux Biolinum', sans-serif;
+    display: inline;
+}
+
+h1 { font-size: 18pt; }
+h2 { font-size: 16pt; }
+h3 { font-size: 14pt; }
+
+div.head_wrap {
+    border-bottom: 1px solid #888;
+    padding-bottom: 0.6mm;
+    display: inline;
+}
+
+.wip_mark {
+    font-size: 10pt;
+    padding: 0 0 0 4mm;
+    display: inline;
+}
+
+tt {
+    font-family: Inconsolate, monospace;
+    font-size: 85%;
+}
+
+/**************************************
+ * Links */
+a {
+    color: #0e7600;
+}
+
+
+/**************************************
+ * Lists */
+dt { font-weight: bold; }
+dd { padding-bottom: 4mm; }
+
+/**************************************
+ * Blocks */
+pre {
+    background-color: #ccc;
+    padding: 2mm 5mm 2mm 5mm;
+    border-left: 3mm solid #333;
+    font-family: Inconsolata, monospace;
+    font-size: 85%;
+}
+

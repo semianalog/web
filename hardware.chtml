@@ -1,0 +1,72 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>semianalog &mdash; Hardware</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+</head>
+<body>
+<div id="body_wrap">
+
+<!-- NAVIGATION BAR -->
+
+
+<div id="navbar_div">
+<ul id="navbar_list">
+    <li class="logo"><a href="/" class="navlink logo"><span class="logo">semi</span><span class="logo2">analog</span></a></li>
+    
+    <li><a href="/index.chtml" class="navlink">Home</a></li>
+        
+    
+    <li><a href="/hardware.chtml" class="navlink navlink_here">Hardware</a></li>
+    
+    <li><a href="/software.chtml" class="navlink">Software</a></li>
+        
+    
+    <li><a href="/ifaq.chtml" class="navlink">IFAQ</a></li>
+        
+</ul>
+</div>
+
+<div id="content">
+
+
+
+
+
+
+<div class="head_wrap"><h2>MOD1 <span class="wip_mark">[WIP]</span></h2></div>
+
+<p>The MOD1 will be a series of modular multiple-output power supplies.
+A small motherboard will provide control via front panel and USB, and a
+series of slave modules (up to 254! glwt) provide and regulate power.</p>
+
+<p>Currently under development. The first module is the MOD12003, a 20V,
+3A, hybrid switching+linear supply module that fits in a 90x90x40mm space.</p>
+
+<p>For quick preview information, see the git repositories:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/mod1base">Base/motherboard</a></li>
+    <li><a href="https://github.com/semianalog/mod12003">MOD12003</a></li>
+</ul>
+
+</div> <!-- content -->
+
+<div id="lastmod">
+    <p style="margin: 0; float: left;">Written by Chris Pavlina.
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0&nbsp;1.0&nbsp;Universal</a>
+    </p>
+    <p style="margin: 0; float: right; text-align:right;">
+        Last modified: Tue&nbsp;Nov&nbsp;17&nbsp;14:19:50&nbsp;EST&nbsp;2015
+    </p>
+    <div style="clear: both;"></div>
+</div>
+
+</div> <!-- body_wrap -->
+</body>
+</html>
+

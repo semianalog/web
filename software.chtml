@@ -1,0 +1,74 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>semianalog &mdash; Software</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+</head>
+<body>
+<div id="body_wrap">
+
+<!-- NAVIGATION BAR -->
+
+
+<div id="navbar_div">
+<ul id="navbar_list">
+    <li class="logo"><a href="/" class="navlink logo"><span class="logo">semi</span><span class="logo2">analog</span></a></li>
+    
+    <li><a href="/index.chtml" class="navlink">Home</a></li>
+        
+    
+    <li><a href="/hardware.chtml" class="navlink">Hardware</a></li>
+        
+    
+    <li><a href="/software.chtml" class="navlink navlink_here">Software</a></li>
+    
+    <li><a href="/ifaq.chtml" class="navlink">IFAQ</a></li>
+        
+</ul>
+</div>
+
+<div id="content">
+
+
+
+
+
+
+<div class="head_wrap"><h2>bomtool <span class="wip_mark">[WIP]</span></h2></div>
+
+<p>GitHub: <a href="https://github.com/cpavlina/bomtool">cpavlina/bomtool</a></p>
+
+<p>bomtool is a KiCad/DigiKey BOM (Bill Of Materials) manager. It lets you specify
+parts in a KiCad schematic like this:</p>
+
+<pre>
+RES SMD 20k 1% [0402]
+CAP MLCC 33nF 5% 25V ≥X5R [0603]
+BEAD SMD 100 @100MHz 2A [1206]
+</pre>
+
+<p>bomtool will then open a browser and drive DigiKey's parametric search to
+find the parts for you. It does more &mdash; check out
+<a href="http://cgi.c4757p.com/ghview.py?bomtool/master/DOCUMENTATION.html">the
+documentation</a>!</p>
+
+</div> <!-- content -->
+
+<div id="lastmod">
+    <p style="margin: 0; float: left;">Written by Chris Pavlina.
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0&nbsp;1.0&nbsp;Universal</a>
+    </p>
+    <p style="margin: 0; float: right; text-align:right;">
+        Last modified: Tue&nbsp;Jul&nbsp;&nbsp;7&nbsp;13:53:03&nbsp;EDT&nbsp;2015
+    </p>
+    <div style="clear: both;"></div>
+</div>
+
+</div> <!-- body_wrap -->
+</body>
+</html>
+

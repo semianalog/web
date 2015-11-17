@@ -1,0 +1,9 @@
+m4_include(header.hti)
+
+<p>I make analog and digital hardware. Have a look around!</p>
+
+_h(3, What I'm working on now)
+
+<p><a href="/hardware.chtml">MOD1</a> modular power supply series</p>
+
+m4_include(footer.hti)

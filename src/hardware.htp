@@ -1,0 +1,20 @@
+m4_define(HTI_SUBTITLE, Hardware)
+m4_include(header.hti)
+
+_h(2, MOD1 _wip)
+
+<p>The MOD1 will be a series of modular multiple-output power supplies.
+A small motherboard will provide control via front panel and USB, and a
+series of slave modules (up to 254! glwt) provide and regulate power.</p>
+
+<p>Currently under development. The first module is the MOD12003, a 20V,
+3A, hybrid switching+linear supply module that fits in a 90x90x40mm space.</p>
+
+<p>For quick preview information, see the git repositories:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/mod1base">Base/motherboard</a></li>
+    <li><a href="https://github.com/semianalog/mod12003">MOD12003</a></li>
+</ul>
+
+m4_include(footer.hti)

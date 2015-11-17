@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    m4_ifdef(`HTI_SUBTITLE',
+    `<title>semianalog &mdash; HTI_SUBTITLE</title>',
+    `<title>semianalog</title>')
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+</head>
+<body>
+<div id="body_wrap">
+
+<!-- NAVIGATION BAR -->
+m4_define(`_navlink', `
+    m4_ifelse($1, /__page__,
+        `<li><a href="$1" class="navlink navlink_here">$2</a></li>',
+        `<li><a href="$1" class="navlink">$2</a></li>'
+        )')
+
+<div id="navbar_div">
+<ul id="navbar_list">
+    <li class="logo"><a href="/" class="navlink logo"><span class="logo">semi</span><span class="logo2">analog</span></a></li>
+    _navlink(/index.chtml, Home)
+    _navlink(/hardware.chtml, Hardware)
+    _navlink(/software.chtml, Software)
+    _navlink(/ifaq.chtml, IFAQ)
+</ul>
+</div>
+
+<div id="content">
+
+m4_define(_wip, `<span class="wip_mark">[WIP]</span>')
+m4_define(_h, `<div class="head_wrap"><h$1>$2</h$1></div>')
+m4_define(_nbspify, `m4_patsubst($1, ` ', `&nbsp;')')
