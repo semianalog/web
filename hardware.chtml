@@ -54,6 +54,12 @@ series of slave modules (up to 254! glwt) provide and regulate power.</p>
     <li><a href="https://github.com/semianalog/mod12003">MOD12003</a></li>
 </ul>
 
+<p>Or to dig in a bit more, see the schematics:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/mod12003/blob/master/mod12003.pdf">MOD12003</a></li>
+</ul>
+
 </div> <!-- content -->
 
 <div id="lastmod">
@@ -61,7 +67,7 @@ series of slave modules (up to 254! glwt) provide and regulate power.</p>
         <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0&nbsp;1.0&nbsp;Universal</a>
     </p>
     <p style="margin: 0; float: right; text-align:right;">
-        Last modified: Tue&nbsp;Nov&nbsp;17&nbsp;14:19:50&nbsp;EST&nbsp;2015
+        Last modified: Tue&nbsp;Nov&nbsp;17&nbsp;15:45:37&nbsp;EST&nbsp;2015
     </p>
     <div style="clear: both;"></div>
 </div>

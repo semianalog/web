@@ -17,4 +17,10 @@ series of slave modules (up to 254! glwt) provide and regulate power.</p>
     <li><a href="https://github.com/semianalog/mod12003">MOD12003</a></li>
 </ul>
 
+<p>Or to dig in a bit more, see the schematics:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/mod12003/blob/master/mod12003.pdf">MOD12003</a></li>
+</ul>
+
 m4_include(footer.hti)
