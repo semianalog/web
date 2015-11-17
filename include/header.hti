@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
 </head>
 <body>
+
+<div id="preload">
+    <img src="/images/logo_hover.png" alt="Highlighted logo image preload" width="1" height="1" />
+</div>
+
 <div id="body_wrap">
 
 <!-- NAVIGATION BAR -->

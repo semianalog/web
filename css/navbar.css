@@ -16,9 +16,6 @@
     margin: 0;
     padding: 0 0 4mm 0;
     list-style: none;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 100%;
     font-family: Slabo, 'Linux Libertine', serif;
 }
 
@@ -27,7 +24,11 @@
 #navbar_list li {
     float: left;
     height: 100%;
-    padding: 2mm 4mm 2mm 0;
+    padding: 2mm 4mm 2mm 2mm;
+    line-height: 32px;
+    font-family: Lato, "Linux Biolinum", sans-serif;
+    font-size: 20px;
+    vertical-align: text-bottom;
 }
 
 /* Most links are non-underlined, underline to highlight. Invert this behavior
@@ -55,27 +56,35 @@ li.logo {
     background-color: #555;
     padding-left: 5mm;
     margin-right: 5mm;
+    line-height: 32px;
     color: #ffd900;
 }
 
 span.logo {
-    margin-left: 5mm;
+    margin-left: 2mm;
     font-family: Lato, "Linux Biolinum", sans-serif;
-    font-size: 14pt;
+    font-size: 20px;
 }
 
 span.logo2 {
     font-family: Lato, "Linux Biolinum", sans-serif;
-    font-size: 14pt;
+    font-size: 20px;
     /* font-style: italic; */
 }
 
 #navbar_list a.logo {
+    display: block;
+    padding-left: 40px;
+    background: url("/images/logo.png") no-repeat 4px;
     color: #ffd900;
 }
 
 #navbar_list a.logo:hover {
     text-decoration: none;
+    background: url("/images/logo_hover.png") no-repeat 4px;
     color: #00ccd6;
 }
 
+div#preload {
+    display: none;
+}
