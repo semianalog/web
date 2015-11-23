@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>semianalog &mdash; IFAQ</title>
+    <title>semianalog &mdash; Articles</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
 </head>
@@ -32,10 +32,10 @@
     <li><a href="/software.chtml" class="navlink">Software</a></li>
         
     
-    <li><a href="/articles.chtml" class="navlink">Articles</a></li>
-        
+    <li><a href="/articles.chtml" class="navlink navlink_here">Articles</a></li>
     
-    <li><a href="/ifaq.chtml" class="navlink navlink_here">IFAQ</a></li>
+    <li><a href="/ifaq.chtml" class="navlink">IFAQ</a></li>
+        
 </ul>
 </div>
 
@@ -46,39 +46,10 @@
 
 
 
-<div class="head_wrap"><h1>IFAQ</h1></div>
-<dl>
+<div class="head_wrap"><h2>Practical circuits</h2></div>
 
-<dt>Who are you?</dt>
-<dd>Chris Pavlina to my face, or <tt>c4757p</tt> to my network adapter. (I
-frequent <tt>#kicad</tt> on Freenode and op <tt>#eevblog</tt> on AfterNET these
-days).
-I'm an EE student and a reformed CS student. I build hardware and
-software for myself, and lately, work on <a href="http://kicad-pcb.org/"
-target="_blank">KiCad development</a>.
-</dd>
-
-<dt>What do you do here?</dt>
-<dd>
-I make analog and digital hardware, and a bit of software, and share it with you. Most of
-it is free.
-</dd>
-
-<dt>What are you using to generate these pages?</dt>
-<dd>M4 and a Makefile, as God intended. Have a look:
-    <a href="/Makefile">Makefile</a>,
-    <a href="/src/">sources</a>,
-    <a href="/include/">includes</a>.</dd>
-
-<dt>Your site is ugly.</dt>
-<dd>So are you.</dd>
-
-<dt>No really, it looks like shit.</dt>
-<dd>Browser compatibility issue? Try beating the CSS with a hammer. If that
-    fails, feel free to let me know. Shouldn't be anything too weird in it,
-    though.</dd>
-
-</dl>
+<p><a href="/articles/fet-inrush/fet-inrush.pdf">FET inrush limiter</a>,
+    suitable for small DC circuits such as USB devices.</p>
 
 </div> <!-- content -->
 
@@ -87,7 +58,7 @@ it is free.
         <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0&nbsp;1.0&nbsp;Universal</a>
     </p>
     <p style="margin: 0; float: right; text-align:right;">
-        Last modified: Tue&nbsp;Nov&nbsp;17&nbsp;14:15:37&nbsp;EST&nbsp;2015
+        Last modified: Mon&nbsp;Nov&nbsp;23&nbsp;12:52:12&nbsp;EST&nbsp;2015
     </p>
     <div style="clear: both;"></div>
 </div>

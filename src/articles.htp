@@ -1,0 +1,9 @@
+m4_define(HTI_SUBTITLE, Articles)
+m4_include(header.hti)
+
+_h(2, Practical circuits)
+
+<p><a href="/articles/fet-inrush/fet-inrush.pdf">FET inrush limiter</a>,
+    suitable for small DC circuits such as USB devices.</p>
+
+m4_include(footer.hti)

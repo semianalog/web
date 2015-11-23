@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}What not to do}{1}{section.1}
+\contentsline {section}{\numberline {2}Better, but not quite}{2}{section.2}
+\contentsline {section}{\numberline {3}Debugging}{2}{section.3}
+\contentsline {section}{\numberline {4}The working circuit}{4}{section.4}
+\contentsline {section}{\numberline {5}Deriving the design equations}{4}{section.5}
+\contentsline {section}{\numberline {6}Design equations}{6}{section.6}
+\contentsline {section}{\numberline {7}Gotchas}{7}{section.7}
+\contentsline {section}{\numberline {8}Worked example}{8}{section.8}

@@ -31,6 +31,9 @@
     
     <li><a href="/software.chtml" class="navlink navlink_here">Software</a></li>
     
+    <li><a href="/articles.chtml" class="navlink">Articles</a></li>
+        
+    
     <li><a href="/ifaq.chtml" class="navlink">IFAQ</a></li>
         
 </ul>

@@ -30,6 +30,7 @@ m4_define(`_navlink', `
     _navlink(/index.chtml, Home)
     _navlink(/hardware.chtml, Hardware)
     _navlink(/software.chtml, Software)
+    _navlink(/articles.chtml, Articles)
     _navlink(/ifaq.chtml, IFAQ)
 </ul>
 </div>
