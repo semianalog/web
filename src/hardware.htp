@@ -1,6 +1,18 @@
 m4_define(HTI_SUBTITLE, Hardware)
 m4_include(header.hti)
 
+_h(2, XMEGA-AU development board _wip)
+
+<p>Not a huge point to this one, I just wanted an XMEGA-AU board the way I
+wanted it and thought I'd make my own. Atmel's is cheaper, get that one.</p>
+
+<p>If you're really interested, see:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/xmega-au-dev">semianalog/xmega-au-dev at GitHub</a></li>
+</ul>
+
+
 _h(2, MOD1 _wip)
 
 <p>The MOD1 will be a series of modular multiple-output power supplies.

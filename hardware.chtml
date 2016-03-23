@@ -46,6 +46,18 @@
 
 
 
+<div class="head_wrap"><h2>XMEGA-AU development board <span class="wip_mark">[WIP]</span></h2></div>
+
+<p>Not a huge point to this one, I just wanted an XMEGA-AU board the way I
+wanted it and thought I'd make my own. Atmel's is cheaper, get that one.</p>
+
+<p>If you're really interested, see:</p>
+
+<ul>
+    <li><a href="https://github.com/semianalog/xmega-au-dev">semianalog/xmega-au-dev at GitHub</a></li>
+</ul>
+
+
 <div class="head_wrap"><h2>MOD1 <span class="wip_mark">[WIP]</span></h2></div>
 
 <p>The MOD1 will be a series of modular multiple-output power supplies.
@@ -75,7 +87,7 @@ series of slave modules (up to 254! glwt) provide and regulate power.</p>
         <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0&nbsp;1.0&nbsp;Universal</a>
     </p>
     <p style="margin: 0; float: right; text-align:right;">
-        Last modified: Tue&nbsp;Nov&nbsp;17&nbsp;15:45:37&nbsp;EST&nbsp;2015
+        Last modified: Wed&nbsp;Mar&nbsp;23&nbsp;13:41:55&nbsp;EDT&nbsp;2016
     </p>
     <div style="clear: both;"></div>
 </div>
